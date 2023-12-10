@@ -3,23 +3,6 @@ dotenv.config()
 
 import fs from "fs"
 
-
-//Function to convert PDF pages to images
-// async function convertPageToImage(pdfPath, pageNumber, outputPath) {
-//   const options = {
-//     density: 400,
-//     saveFilename: `page${pageNumber}`,
-//     savePath: outputPath,
-//     format: 'png',
-//     width: 1920,
-//     height: 1080
-//   };
-
-//   const convert = fromPath(pdfPath, options);
-//   return await convert(pageNumber);
-// }
-
-
 //openai
 import OpenAI from "openai"
 let totalTokensUsed = 0
